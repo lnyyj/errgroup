@@ -1,4 +1,4 @@
-// 对golang.org/x/sync/errgroup调用的简单封装，让其可以自动超时
+// 对golang.org/x/sync/errgroup调用的简单封装，防止阻塞调用导致无法超时
 // 用法和errgroup一样
 package errgroup
 
